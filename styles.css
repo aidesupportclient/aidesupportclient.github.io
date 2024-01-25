@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 285px; /* Ajustez la valeur selon vos besoins */
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 0;
+    margin-top: 0;
+    position: relative;
+    align-items: start;
+}
+
+.sup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Assure que la div occupe toute la largeur de son contenant */
+  }
+
+.login-container {
+    background-color: #ffffff18;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.language-button, .facebook-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #3897f0;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f6f6f8;
+}
+
+button {
+    background-color: #3897f0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or-text {
+    margin: 0 10px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #3897f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Ajoutez ces styles à votre fichier CSS existant */
+
+.language-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-icon {
+    width: 14px;
+    margin-left: 5px;
+}
+
+.facebook-button {
+    background-color: #3897f0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.facebook-icon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+/* Ajoutez ces styles à votre fichier CSS existant */
+
+.language-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.facebook-button {
+    background-color: #3897f0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or-text {
+    margin: 0 10px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* Ajoutez ces styles à votre fichier CSS existant */
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Ajoutez cet espacement entre les boutons */
+}
+
+.login-button, .facebook-button, button[type="submit"] {
+    width: 100%; /* Assurez-vous que tous les boutons prennent 100% de la largeur */
+    background-color: #3897f0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.facebook-button {
+    background-color: #4267B2; /* Couleur Facebook */
+}
+
+/* Ajoutez ces styles à votre fichier CSS existant */
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Ajoutez cet espacement entre les boutons */
+}
+
+.login-button, .facebook-button, button[type="submit"] {
+    width: 100%; /* Assurez-vous que tous les boutons prennent 100% de la largeur */
+    background-color: #3897f0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px; /* Ajoutez cette propriété pour des coins arrondis */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrez le contenu horizontalement */
+}
+
+.facebook-button {
+    background-color: #3897f0; /* Couleur Facebook */
+}
+
+.facebook-button i {
+    margin-right: 10px; /* Ajoutez un espacement à droite de l'icône */
+}
+
+.logo {
+    width: 190px;
+}

